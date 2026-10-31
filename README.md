@@ -7,7 +7,9 @@ Door game is a short browser game about grabbing a key, getting around a few obs
 To play click here:
 
 https://centcodergit.github.io/doorgame/
- 
+
+<img width="1475" height="869" alt="Screenshot 2026-10-31 at 7 52 11 PM" src="https://github.com/user-attachments/assets/3be5fb01-d93b-437a-acb5-a7920fe214be" />
+
 To move use the arrow keys or WASD. Walk over the key to pick it up, then head for the open door. You don't need to press anything to collect the key or go through. Just go close to the key to collect it The opening screen is basically the tutorial,  grab the key and reach the door to start the three rooms. Once you're in, just try to collect the keys and reach the doors before the time runs out, that's it. If it runs out, that room resets automatically.
 Movement has a little momentum, so give yourself some space around corners.
 Finish all three rooms and stick around for what happens next. Refresh the page whenever you want to start over.
