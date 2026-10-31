@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Door Game</title>
+<link rel="icon" href="favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loading">LOADING</div>
+
+<div id="container">
+
+  <div id="screen1">
+    <h1 id="title">Door<br>Game</h1>
+    <canvas id="introCanvas"></canvas>
+  </div>
+
+  <div id="screen2">
+    <div id="levels">
+      <canvas id="canvas1" width="300" height="380"></canvas>
+      <canvas id="canvas2" width="300" height="380"></canvas>
+      <canvas id="canvas3" width="300" height="380" style="margin-right:0px"></canvas>
+
+      <div id="message">Good morning and happy day :) - Centcoder</div>
+      <div id="rewindText">rewinding...</div>
+      <div id="replayText">playing back...</div>
+    </div>
+  </div>
+
+</div>
+
+<img id="peep" src="images/peep.png" style="display:none">
+<img id="key" src="images/key.png" style="display:none">
+<img id="door" src="images/door.png" style="display:none">
+<img id="clock" src="images/clock.png" style="display:none">
+
+<script src="keys.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
